@@ -1,5 +1,5 @@
 ---
-theme: penguin
+theme: bricks
 colorSchema: light
 # apply any windi css classes to the current slide
 class: 'text-center'
@@ -14,13 +14,6 @@ css: unocss
 hideInToc: true
 layout: intro
 ---
-
-<style>
-   :root {
-      --slidev-controls-foreground: black !important;
-      --slidev-slide-container-background: transparent !important;
-    }
-</style>
 # How to Build a Web App Using React
 
 Learn how to build an interactive blog using React. 
