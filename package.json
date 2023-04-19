@@ -12,7 +12,8 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "sass": "^1.62.0",
-    "slidev-theme-penguin": "^1.6.1"
+    "slidev-theme-penguin": "^1.6.1",
+    "vite-svg-loader": "^4.0.0"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.25"
