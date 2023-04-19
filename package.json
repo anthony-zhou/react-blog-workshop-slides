@@ -10,6 +10,11 @@
     "@slidev/cli": "^0.40.13",
     "@slidev/theme-bricks": "^0.0.2",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "sass": "^1.62.0",
+    "slidev-theme-penguin": "^1.6.1"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.25"
   }
 }

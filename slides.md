@@ -1,11 +1,10 @@
 ---
-theme: bricks
-
+theme: penguin
+colorSchema: light
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
-background: '#FF6A6A'
 # show line numbers in code blocks
 lineNumbers: false
 # page transition
@@ -13,15 +12,20 @@ transition: slide-left
 # use UnoCSS
 css: unocss
 hideInToc: true
+layout: intro
 ---
 
+<style>
+   :root {
+      --slidev-controls-foreground: black !important;
+      --slidev-slide-container-background: transparent !important;
+    }
+</style>
 # How to Build a Web App Using React
 
 Learn how to build an interactive blog using React. 
 
-<button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
+
 ---
 layout: default
 hideInToc: true
@@ -30,7 +34,7 @@ hideInToc: true
 # What you will **learn** today
 
 
-<Toc ></Toc>
+<Toc maxDepth="1" ></Toc>
 
 ---
 
@@ -52,9 +56,18 @@ hideInToc: true
   }
   ```
 
+---
+hideInToc: true
+---
+
+# 2min Webdev Review
+
+### For this workshop, I'll assume you know the following:
+
 - How to open the terminal
   ```bash
   node --version
+  git clone https://github.com/anthony-zhou/react-blog-workshop
   ```
 ---
 
@@ -127,7 +140,7 @@ level: 2
 level: 2
 ---
 
-# Sample React Code
+# Sample React + Next.js Code
 
 <a href="https://stackblitz.com/edit/nextjs-html-demo?file=pages/index.js">
 Demo: HTML vs. Next.js
@@ -231,8 +244,8 @@ Now that we have a simple blog ready to go, let's make it interactive! Here are 
 
 More resources:
 
-- Next.js website
-- React.js website
-- TailwindCSS website
+- [Next.js docs](https://nextjs.org/docs)
+- [React.js docs](https://react.dev/learn)
+- [TailwindCSS docs](https://v2.tailwindcss.com/docs)
 
 You can reach me at az2681@columbia.edu
